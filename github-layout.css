@@ -96,7 +96,7 @@ html, body, div, span, object, iframe,
           text-decoration: none;
         }
         
-        .col2:hover :nth-child(3n+1){
+        .col2:nth-child(3n+1):hover{
           -moz-box-shadow: 0 0 5px #99d3e1;
           -webkit-box-shadow: 0 0 5px #99d3e1;
           box-shadow: 0 0 5px #99d3e1;
