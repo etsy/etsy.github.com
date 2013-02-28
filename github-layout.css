@@ -92,6 +92,12 @@ html, body, div, span, object, iframe,
         .col2 a{
           text-decoration: none;
         }
+        
+        .col2 a:hover{
+          -moz-box-shadow: 0 0 5px #99d3e1;
+          -webkit-box-shadow: 0 0 5px #99d3e1;
+          box-shadow: 0 0 5px #99d3e1;
+        }
 
         .col2 p{
           color: #7d7773;
