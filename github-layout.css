@@ -1,0 +1,148 @@
+html, body, div, span, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        abbr, address, cite, code,
+        em, img, ins, kbd, q, samp,
+        small, strong, sub, sup, var,
+        b, i,
+        dl, dt, dd, ol,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, figcaption, figure, 
+        footer, header, hgroup, menu, nav, section, summary,
+        time, mark, audio, video {
+          margin:0;
+          padding:0;
+          border:0;
+          outline:0;
+          font-size:100%;
+          vertical-align:baseline;
+          background:transparent;
+          display: block;
+        }
+
+        body {
+          font-family: "Arial",Helvetica,sans-serif;
+          font-size: 13px;
+        }
+
+        a{
+          color: #0192b5;
+          text-decoration: none;
+          font-size:100%;
+          vertical-align:baseline;
+          background:transparent;
+        }
+
+        a:hover{
+          text-decoration: underline;
+        }
+
+        #header {
+          clear: both;
+          padding: 1.5em 0;
+          line-height: 1.5em;
+          border-bottom: 1px solid #E2E2E2;
+          background-color: #F5F5F1;
+        }
+
+        #etsy{
+          display: inline-block;
+          background: url('http://etsy.com/images/logo_standalone.png');
+          background-repeat: no-repeat;
+          text-indent: -999em;
+        }
+
+        #etsy a {
+          display: block;
+          width: 75px;
+          height: 37px;
+        }
+
+        .content{
+          width: 760px;
+          margin: 0px auto;
+        }
+
+        .clearfix:before, .clearfix:after {
+          content:"";
+          display: table;
+        }
+
+        .clearfix:after {
+          clear: both;
+        }
+
+        .clearfix {
+          zoom: 1;
+        }
+
+        .row {
+          margin-top: 3em;
+        }
+
+        .col2 {
+          color: #7d7773;
+          text-align: center;
+          line-height: 18px;
+        }
+
+        .col2 a{
+          text-decoration: none;
+        }
+
+        .col2 p{
+          color: #7d7773;
+        }
+
+        h2 {
+          display: block;
+          font-size: 18px;
+          font-weight: bold;
+          padding-bottom: 5px;
+        }
+
+        a:hover h2{
+          text-decoration: underline;
+        }
+
+        .github-sprites {
+          display: block;
+          background: url('http://etsy.com/images/github/github-sprites.png') no-repeat;
+          margin-bottom: 22px;
+        }
+
+        .statsd {
+          background-position: 0px 0px;
+          width: 140px;
+          height: 104px;
+        }
+
+        .dashboard{
+          background-position: 0px -109px;
+          width: 140px;
+          height: 107px;
+        }
+
+        .deployinator{
+          background-position: 0px -220px;
+          width: 140px;
+          height: 104px;
+        }
+
+        .logster{
+          background-position: 0px -330px;
+          width: 139px;
+          height: 103px;
+        }
+
+        .abframework{
+          background-position: 0px -440px;
+          width: 140px;
+          height: 104px;
+        }
+
+        .more{
+          background-position: 0px -546px;
+          width: 139px;
+          height: 103px;
+        }
