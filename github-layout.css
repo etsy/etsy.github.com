@@ -87,9 +87,9 @@ html, body, div, span, object, iframe,
           height: 185px;
           padding: 17px 17px;
           margin-left: -28px;
-          -webkit-border-radius: 5px;
-          -moz-border-radius: 5px;
-          border-radius: 5px;
+          -webkit-border-radius: 3px;
+          -moz-border-radius: 3px;
+          border-radius: 3px;
         }
 
         .col2 a{
@@ -97,9 +97,9 @@ html, body, div, span, object, iframe,
         }
         
         .col2:nth-child(2n+1):hover{
-          -moz-box-shadow: 0 0 5px #99d3e1;
-          -webkit-box-shadow: 0 0 5px #99d3e1;
-          box-shadow: 0 0 5px #99d3e1;
+          -moz-box-shadow: 0 0 4px #99d3e1;
+          -webkit-box-shadow: 0 0 4px #99d3e1;
+          box-shadow: 0 0 4px #99d3e1;
         }
 
         .col2 p{
