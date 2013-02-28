@@ -84,6 +84,10 @@ html, body, div, span, object, iframe,
           color: #7d7773;
           text-align: center;
           line-height: 18px;
+          margin: 10px;
+          height: 185px;
+          padding: 30px 17px;
+          margin-left: -28px;
         }
 
         .col2 a{
