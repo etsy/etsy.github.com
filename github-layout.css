@@ -47,8 +47,7 @@ html, body, div, span, object, iframe,
 
         #etsy{
           display: inline-block;
-          background: url('http://etsy.com/images/logo_standalone.png');
-          background-repeat: no-repeat;
+          background: url('http://etsy.com/images/logo_standalone.png') no-repeat;
           text-indent: -999em;
         }
 
@@ -117,6 +116,8 @@ html, body, div, span, object, iframe,
           display: block;
           background: url('http://etsy.com/images/github/github-sprites.png') no-repeat;
           margin-bottom: 22px;
+          width: 139px;
+          height: 646px;
         }
 
         .statsd {
@@ -160,6 +161,8 @@ html, body, div, span, object, iframe,
           display: block;
           background: url('http://etsy.com/images/github/github-sprites@2x.png') no-repeat;
           margin-bottom: 22px;
+          width: 339px;
+          height: 1575px;
         }
 
         .statsd {
