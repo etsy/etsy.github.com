@@ -47,7 +47,7 @@ vhtml, body, div, span, object, iframe,
 
         #etsy{
           display: inline-block;
-          background: url('http://etsy.com/images/logo_standalone.png') no-repeat;
+          background: url('https://etsy.com/images/logo_standalone.png') no-repeat;
           text-indent: -999em;
         }
 
@@ -114,7 +114,7 @@ vhtml, body, div, span, object, iframe,
 
         .github-sprites {
           display: block;
-          background: url('http://etsy.com/images/github/github-sprites.png') no-repeat;
+          background: url('https://etsy.com/images/github/github-sprites.png') no-repeat;
           margin-bottom: 22px;
           width: 139px;
           height: 646px;
@@ -163,12 +163,12 @@ only screen and (min-device-pixel-ratio: 1.5)  {
 
 #etsy{
           display: inline-block;
-          background: url('http://etsy.com/images/logo_standalone@2x.png') no-repeat;
+          background: url('https://etsy.com/images/logo_standalone@2x.png') no-repeat;
           text-indent: -999em;
         }
 .github-sprites {
 	display: block;
-	background: url('http://etsy.com/images/github/github-sprites@2x.png') no-repeat;
+	background: url('https://etsy.com/images/github/github-sprites@2x.png') no-repeat;
 	background-size: 646px 139px;
 	margin-bottom: 22px;
         }
