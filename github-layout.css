@@ -159,3 +159,45 @@ vhtml, body, div, span, object, iframe,
           width: 139px;
           height: 103px;
         }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5)  {
+.github-sprites {
+	display: block;
+	background: url('http://etsy.com/images/github/github-sprites@2x.png') no-repeat;
+	background-size: 646px 139px;
+	margin-bottom: 22px;
+        }
+
+        .statsd {
+	background-position: 0px 0px;
+	background-size: 104px 140px;
+        }
+
+        .dashboard{
+	background-position: 0px -265px;
+	background-size: 107px 140px;
+        }
+
+        .deployinator{
+	background-position: 0px -556px;
+	background-size: 104px 140px;
+        }
+
+        .logster{
+	background-position: 0px -799px;
+	background-size: 103px 139px;
+        }
+
+        .abframework{
+	background-position: 0px -1068px;
+	background-size: 104px 140px;
+        }
+
+        .more{
+	background-position: 0px -1321px;
+	background-size: 103px 139px;
+        }
+}
