@@ -169,45 +169,4 @@ only screen and (min-device-pixel-ratio: 1.5)  {
         margin-bottom: 22px;
         }
 
-        .statsd {
-      background-position: 0px 0px;
-      background-size: 104px 140px;
-        height:104px;
-	width: 140px;
-        }
-
-        .dashboard{
-      background-position: 0px -265px;
-      background-size: 107px 140px;
-	height:107px;
-	width: 140px;
-        }
-
-        .deployinator{
-      background-position: 0px -556px;
-      background-size: 104px 140px;
-	height:104px;
-	width: 140px;
-        }
-
-        .logster{
-      background-position: 0px -799px;
-      background-size: 103px 139px;
-	height: 103px;
-	width: 139px;
-        }
-
-        .abframework{
-      background-position: 0px -1068px;
-      background-size: 104px 140px;
-	height:104px;
-	width: 140px;
-        }
-
-        .more{
-	background-position: 0px -1321px;
-	background-size: 103px 139px;
-	height: 103px;
-	width: 139px;
-        }
 }
