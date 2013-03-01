@@ -49,6 +49,8 @@
           display: inline-block;
           background: url('https://etsy.com/images/logo_standalone.png') no-repeat;
           text-indent: -999em;
+          width: 75px;
+          height: 37px;
         }
 
         #logo a {
