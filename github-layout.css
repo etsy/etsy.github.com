@@ -115,10 +115,6 @@ vhtml, body, div, span, object, iframe,
         .github-sprites {
           display: block;
           background: url('http://etsy.com/images/github/github-sprites.png') no-repeat;
-          background-image: -webkit-image-set(
-  		url('http://etsy.com/images/github/github-sprites.png') 1x
-  		url('http://etsy.com/images/github/github-sprites@2x.png') 2x
-	  );
           margin-bottom: 22px;
           width: 139px;
           height: 646px;
