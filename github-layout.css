@@ -168,6 +168,8 @@
         background: url('https://etsy.com/images/logo_standalone@2x.png') no-repeat;
         text-indent: -999em;
         background-size: 75px 37px;
+        width: 75px;
+        height: 37px;
         }
         
 	.github-sprites {
