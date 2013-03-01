@@ -160,6 +160,12 @@ vhtml, body, div, span, object, iframe,
 only screen and (-moz-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5)  {
+
+#etsy{
+          display: inline-block;
+          background: url('http://etsy.com/images/logo_standalone@2x.png') no-repeat;
+          text-indent: -999em;
+        }
 .github-sprites {
 	display: block;
 	background: url('http://etsy.com/images/github/github-sprites@2x.png') no-repeat;
