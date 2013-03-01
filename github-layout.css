@@ -1,4 +1,4 @@
-html, body, div, span, object, iframe,
+vhtml, body, div, span, object, iframe,
         h1, h2, h3, h4, h5, h6, p, blockquote, pre,
         abbr, address, cite, code,
         em, img, ins, kbd, q, samp,
@@ -163,7 +163,7 @@ only screen and (min-device-pixel-ratio: 1.5)  {
 .github-sprites {
         display: block;
 	background: url('http://etsy.com/images/github/github-sprites@2x.png') no-repeat;
-	background-size: 646px 139px;
+	background-size: 787px 170px;
 	margin-bottom: 22px;
         }
 
