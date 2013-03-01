@@ -173,10 +173,10 @@
 	.github-sprites {
 	display: block;
 	background: url('https://etsy.com/images/github/github-sprites@2x.png') no-repeat;
-	background-size: 1575px 339px;
+	background-size: 1375px 139px;
 	margin-bottom: 22px;
-	width: 339px;
-        height: 1575px;
+	width: 139px;
+        height: 1375px;
         }
 
         .statsd {
