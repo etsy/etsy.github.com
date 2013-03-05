@@ -158,3 +158,46 @@
           height: 103px;
         }
 
+	@media only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (-moz-min-device-pixel-ratio: 2),
+	only screen and (-o-min-device-pixel-ratio: 3/2),
+	only screen and (min-device-pixel-ratio: 2)  {
+
+	#logo{
+        display: inline-block;
+        background: url('https://etsy.com/images/logo_standalone@2x.png') no-repeat;
+        text-indent: -999em;
+        }
+        
+	.github-sprites {
+	display: block;
+	background: url('https://etsy.com/images/github/github-sprites@2x.png') no-repeat;
+	background-size: 646px 139px;
+	margin-bottom: 22px;
+        }
+
+        .statsd {
+	background-size: 104px 140px;
+        }
+
+        .dashboard{
+	background-size: 107px 140px;
+        }
+
+        .deployinator{
+	background-size: 104px 140px;
+        }
+
+        .logster{
+	background-size: 103px 139px;
+        }
+
+        .abframework{
+	background-size: 104px 140px;
+        }
+
+        .more{
+	background-size: 103px 139px;
+        }
+	
+	}
