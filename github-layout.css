@@ -167,6 +167,7 @@
         display: inline-block;
         background: url('https://etsy.com/images/logo_standalone@2x.png') no-repeat;
         text-indent: -999em;
+        background-size: 150px 96px;
         width: 150px;
         height: 96px;
         }
