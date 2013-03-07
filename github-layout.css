@@ -176,6 +176,9 @@
 	display: block;
 	background: url('https://etsy.com/images/github/github-sprites@2xn.png') no-repeat;
 	margin-bottom: 22px;
+	background-size: 1292px 278px;
+	width: 1292px;
+	height: 278px;
         }
         
         .statsd {
