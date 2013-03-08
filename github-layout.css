@@ -183,38 +183,26 @@
         
         .statsd {
           background-position: 0px 0px;
-          width: 240px;
-          height: 204px;
           }
 
         .dashboard{
           background-position: 0px -209px;
-          width: 240px;
-          height: 207px;
           }
 
         .deployinator{
           background-position: 0px -320px;
-          width: 240px;
-          height: 204px;
         }
 
         .logster{
           background-position: 0px -430px;
-          width: 239px;
-          height: 203px;
         }
 
         .abframework{
           background-position: 0px -540px;
-          width: 240px;
-          height: 204px;
           }
 
         .more{
           background-position: 0px -646px;
-          width: 239px;
-          height: 203px;
         }
 	
 	}
