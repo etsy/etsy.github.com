@@ -178,5 +178,29 @@
 	background-size: 139px 646px;
         }
         
+        
+        .statsd {
+          background-position: 0px 0px;
+          }
+
+        .dashboard{
+          background-position: 0px -209px;
+          }
+
+        .deployinator{
+          background-position: 0px -320px;
+        }
+
+        .logster{
+          background-position: 0px -430px;
+        }
+
+        .abframework{
+          background-position: 0px -540px;
+          }
+
+        .more{
+          background-position: 0px -646px;
+        }
 	
 	}
