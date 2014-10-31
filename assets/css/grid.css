@@ -1,0 +1,299 @@
+/*
+# Grid
+- Make sure you apply a clearfix to the grid container to clear it properly
+- all columns are floated left
+- apply class '.col-last' to the last column of the grid to fit it nicely
+- apply class '.col-visible' to grid container to make it visible (for dev purpose)
+
+## default grid
+- 56px col width, 28px gutter
+```
+<div class='clearfix col-visible'>
+    <div class="col col1">&nbsp;</div>
+    <div class="col col1">&nbsp;</div>
+    <div class="col col1">&nbsp;</div>
+    <div class="col col1">&nbsp;</div>
+    <div class="col col1">&nbsp;</div>
+    <div class="col col1">&nbsp;</div>
+    <div class="col col1">&nbsp;</div>
+    <div class="col col1">&nbsp;</div>
+    <div class="col col1">&nbsp;</div>
+    <div class="col col1">&nbsp;</div>
+    <div class="col col1">&nbsp;</div>
+    <div class="col col1 col-last">&nbsp;</div>
+</div>
+&nbsp;
+<div class="clearfix col-visible">
+    <div class="col col3">&nbsp;</div>
+    <div class="col col3">&nbsp;</div>
+    <div class="col col3">&nbsp;</div>
+    <div class="col col3 col-last">&nbsp;</div>
+</div>
+&nbsp;
+<div class="clearfix col-visible">
+    <div class="col col4">&nbsp;</div>
+    <div class="col col4">&nbsp;</div>
+    <div class="col col4 col-last">&nbsp;</div>
+</div>
+&nbsp;
+<div class="clearfix col-visible">
+    <div class="col col6">&nbsp;</div>
+    <div class="col col6 col-last">&nbsp;</div>
+</div>
+```
+ */
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.col {
+    float: left;
+}
+
+.col-last {
+    margin-right: 0 !important;
+}
+
+.col-visible .col {
+    background-color: rgba(227, 227, 227, 0.8);
+}
+
+.col {
+    margin-right: 28px;
+}
+
+.col1 {
+    width: 56px;
+}
+
+.col2 {
+    width: 140px;
+}
+
+.col3 {
+    width: 224px;
+}
+
+.col4 {
+    width: 308px;
+}
+
+.col5 {
+    width: 392px;
+}
+
+.col6 {
+    width: 476px;
+}
+
+.col7 {
+    width: 560px;
+}
+
+.col8 {
+    width: 644px;
+}
+
+.col9 {
+    width: 728px;
+}
+
+.col10 {
+    width: 812px;
+}
+
+.col11 {
+    width: 896px;
+}
+
+.col12 {
+    width: 980px;
+}
+
+.col-offset1 {
+    margin-left: 84px;
+}
+
+.col-offset2 {
+    margin-left: 168px;
+}
+
+.col-offset3 {
+    margin-left: 252px;
+}
+
+.col-offset4 {
+    margin-left: 336px;
+}
+
+.col-offset5 {
+    margin-left: 420px;
+}
+
+.col-offset6 {
+    margin-left: 504px;
+}
+
+.col-offset7 {
+    margin-left: 588px;
+}
+
+.col-offset8 {
+    margin-left: 672px;
+}
+
+.col-offset9 {
+    margin-left: 756px;
+}
+
+.col-offset10 {
+    margin-left: 840px;
+}
+
+.col-offset11 {
+    margin-left: 924px;
+}
+
+/*
+## grid-67
+- *secondary grid*
+- 67px col width, 16px gutter
+```
+<div class='clearfix grid-67 col-visible'>
+    <div class="col col1">&nbsp;</div>
+    <div class="col col1">&nbsp;</div>
+    <div class="col col1">&nbsp;</div>
+    <div class="col col1">&nbsp;</div>
+    <div class="col col1">&nbsp;</div>
+    <div class="col col1">&nbsp;</div>
+    <div class="col col1">&nbsp;</div>
+    <div class="col col1">&nbsp;</div>
+    <div class="col col1">&nbsp;</div>
+    <div class="col col1">&nbsp;</div>
+    <div class="col col1">&nbsp;</div>
+    <div class="col col1 col-last">&nbsp;</div>
+</div>
+&nbsp;
+<div class="clearfix grid-67 col-visible">
+    <div class="col col3">&nbsp;</div>
+    <div class="col col3">&nbsp;</div>
+    <div class="col col3">&nbsp;</div>
+    <div class="col col3 col-last">&nbsp;</div>
+</div>
+&nbsp;
+<div class="clearfix grid-67 col-visible">
+    <div class="col col4">&nbsp;</div>
+    <div class="col col4">&nbsp;</div>
+    <div class="col col4 col-last">&nbsp;</div>
+</div>
+&nbsp;
+<div class="clearfix grid-67 col-visible">
+    <div class="col col6">&nbsp;</div>
+    <div class="col col6 col-last">&nbsp;</div>
+</div>
+```
+ */
+.grid-67 .col {
+    margin-right: 16px;
+}
+
+.grid-67 .col1 {
+    width: 67px;
+}
+
+.grid-67 .col2 {
+    width: 150px;
+}
+
+.grid-67 .col3 {
+    width: 233px;
+}
+
+.grid-67 .col4 {
+    width: 316px;
+}
+
+.grid-67 .col5 {
+    width: 399px;
+}
+
+.grid-67 .col6 {
+    width: 482px;
+}
+
+.grid-67 .col7 {
+    width: 565px;
+}
+
+.grid-67 .col8 {
+    width: 648px;
+}
+
+.grid-67 .col9 {
+    width: 731px;
+}
+
+.grid-67 .col10 {
+    width: 814px;
+}
+
+.grid-67 .col11 {
+    width: 897px;
+}
+
+.grid-67 .col12 {
+    width: 980px;
+}
+
+.grid-67 .col-offset1 {
+    margin-left: 83px;
+}
+
+.grid-67 .col-offset2 {
+    margin-left: 166px;
+}
+
+.grid-67 .col-offset3 {
+    margin-left: 249px;
+}
+
+.grid-67 .col-offset4 {
+    margin-left: 332px;
+}
+
+.grid-67 .col-offset5 {
+    margin-left: 415px;
+}
+
+.grid-67 .col-offset6 {
+    margin-left: 498px;
+}
+
+.grid-67 .col-offset7 {
+    margin-left: 581px;
+}
+
+.grid-67 .col-offset8 {
+    margin-left: 664px;
+}
+
+.grid-67 .col-offset9 {
+    margin-left: 747px;
+}
+
+.grid-67 .col-offset10 {
+    margin-left: 830px;
+}
+
+.grid-67 .col-offset11 {
+    margin-left: 913px;
+}
